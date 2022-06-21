@@ -1,11 +1,11 @@
 {
-    "theme_color": "#35ecf6",
-    "background_color": "#4e4e4d",
+    "theme_color": "#0082e6",
+    "background_color": "#0082e6",
     "display": "browser",
     "scope": "/",
-    "start_url": "https://dewmax.github.io/TEST/",
+    "start_url": "/https://dewmax.github.io/TEST/",
     "name": "ROTARY POWER",
-    "short_name": "ROTOR",
+    "short_name": "ROTARY",
     "icons": [
         {
             "src": "/icon-192x192.png",
