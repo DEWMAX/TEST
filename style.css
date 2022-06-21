@@ -83,6 +83,17 @@ section {
     margin-bottom: 10px;
 }
 
+article{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.759);
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+    flex: 1 1 0%;
+    justify-content:  flex-end;
+    margin: 0 -2px;
+}
 
 
 
