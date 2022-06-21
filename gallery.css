@@ -99,37 +99,32 @@ article{
     background-image: url('https://www.autocentrum.pl/ac-file/gallery-photo/5dd291b0583a0f0f2c464a90.jpg');
     background-position: 45% center;
     background-size: cover;
-    height: 150px;
+    height: 200px;
 }
 
 .rx7 {
     background-image: url('https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6Img2ZmMybnRlZWFkazEtT1RPTU9UT1BMIiwidyI6W3siZm4iOiJ3ZzRnbnFwNnkxZi1PVE9NT1RPUEwiLCJzIjoiMTYiLCJwIjoiMTAsLTEwIiwiYSI6IjAifV19.KuCQh0drgkv0yxVQveBoezPEeOkmBJ8drFrkWMMf1Mg/image;s=1080x720');
     background-position: 45% center;
     background-size: cover;
-    height: 150px;
+    height: 200px;
 }
 
 .rx2 {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Mazda_Capella_001.JPG/250px-Mazda_Capella_001.JPG');
     background-position: 45% center;
     background-size: cover;
-    height: 150px;
+    height: 200px;
 }
 
 .rx3 {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mazda-rx3-1st-generation01.jpg/240px-Mazda-rx3-1st-generation01.jpg');
     background-position: 45% center;
     background-size: cover;
-    height: 150px;
+    height: 200px;
 }
 
 h3 {
     padding: 20px;
-}
-
-.coffee p {
-    padding: 20px;
-    line-height: 1.5;
 }
 
 
