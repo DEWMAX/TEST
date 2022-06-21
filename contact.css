@@ -1,0 +1,118 @@
+:root {
+    --primary: #00b7ff;
+    --light: #EEEEEE;
+    --dark: #0082e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    background-color: var(--dark);
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3%;
+    overflow-wrap: normal;
+}
+
+.container {
+    max-width:  1280px;
+    margin: 0 auto;
+
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color:  var(--dark);
+    padding: 16px 32px;
+    border-bottom:  3px solid var(--dark);
+}
+
+h1 {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.menu {
+    display: flex;
+    flex: 1 1 0%;
+    justify-content:  flex-end;
+    margin: 0 -2px;
+}
+
+.menu a {
+    color: #FFF;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+}
+
+.menu a.active, .menu a:hover {
+    background-color: var(--primary);
+}
+
+header {
+    background-image: url('https://i.wpimg.pl/1920x0/m.autokult.pl/40th-renesis-1-650966d3005fd6f1c.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px;
+    position: relative;
+}
+
+article{
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.759);
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+    flex: 1 1 0%;
+    justify-content:  flex-end;
+    margin: 0 -2px;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .menu a {
+        color: #FFF;
+        margin: 0 -1px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 4px 8px;
+        border-radius: 50px;
+    }
+}
